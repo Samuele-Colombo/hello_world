@@ -1,5 +1,5 @@
 module hello_world
 
-greet() = print("Hello Wold!")
+greet() = print("Hello World!")
 
 end # module
