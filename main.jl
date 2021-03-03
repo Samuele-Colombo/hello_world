@@ -7,7 +7,7 @@ using hello_world
 using Base
 
 function main(args)
-    hello_world.greet(Base.isempty(args) ? nothing : args)
+    hello_world.greet(args)
 end
 
 main(ARGS)
