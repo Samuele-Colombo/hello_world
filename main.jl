@@ -4,7 +4,6 @@ using Pkg
 Pkg.activate(normpath(@__DIR__))
 
 using hello_world
-using Base
 
 function main(args)
     hello_world.greet(args)
