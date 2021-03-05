@@ -1,4 +1,4 @@
-#!~/julia-1.5.3/bin/julia
+#!/home/xaco/julia-1.5.3/bin/julia
 
 using Pkg
 Pkg.activate(normpath(@__DIR__))
